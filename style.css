@@ -1,121 +1,123 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
-html,
+html ,
 body {
-  padding: 15px;
-  height: 100%;
-  width: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 100%;
+width: 100%;
 }
 
-.main-container {
-  display: flex;
-  position: relative;
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-  background-color: rgb(250, 232, 180);
-  overflow: hidden;
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
-.part1 {
-  border-radius: 20px 0 0 20px;
-  background-color: #fac60a;
-  width: 60%;
-  height: 100%;
+#main{
+   height: 93%;
+   width: 96%;
+    border-radius: 39px;
+   background: linear-gradient(
+  to right,
+ #FFCB05,  #FFCC00 60%,
+  #F6EBCF 40%
+);
+
+position: relative;
+left: 1.8%;
+top: 2.9%;
+
+box-shadow: 0 0 20px rgb(19, 15, 15) ;
+
 }
 
+#m{
+     height: 96%;
+     margin-left: 7.3%;
+    position: absolute;
+    right: 14%;
 
+}
 
-.text-div {
+#lo{
+  padding: 30px 30px;
+
   position: absolute;
-  width: 400px;
-  margin-left: 70px;
-  top: 25%;
-}
+  top: 2%;
+  left: 1%;
 
-.normal-head {
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
-.poke-name {
-  font-size: 130px;
-}
-
-.info-text {
-  letter-spacing: .2px;
-  margin-bottom: 30px;
-}
-
-.date {
-  transform: translateY(-20%);
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.dash-line {
-  height: fit-content;
-  border: 1px solid black;
-  width: 40px;
-}
-
-.date-value {
-  font-weight: 700;
-}
-
-#logo-img {
-  width: 200px;
+  height: 10%;
+ 
 
 }
 
-.ri-menu-fill {
-  position: absolute;
-  font-size: 50px;
-  top: 30px;
-  right: 50px;
+#na{
+    font-size:300px;
+    padding-left: 200px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+
 }
 
-.pokeball {
-  position: relative;
-  opacity: 0.2;
-  width: 200px;
-  bottom: -30px;
-  left: -30px
+
+#para{
+font-size:65px;
+padding-left: 200px;
+
+position: absolute;
+    top: 50%;
+
+
+
 }
 
-.Pichachu-img {
-  position: absolute;
-  width: 700px;
-  left: 50%;
-  transform: translateX(-20%);
-  filter: saturate(200%);
+#date{
+font-size: 60px;
+padding-left: 200px;
+padding-top: 68px;
+
+
+position: absolute;
+    top: 69%;
+
 }
 
-.scroll-elements {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 2%;
+h6{
+    font-size: 39px;
+    padding-left: 200px;
+
+
+position: absolute;
+    top: 25%;
+
+
+
 }
 
-.circle {
-  width: 10px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background-color: #fac60a;
-  margin-bottom: 10px;
+#menu{
+    position: absolute;
+    right: 1%;
+   top: 2%;
+    height: 110px;
 }
 
-.black {
-  background-color: #000;
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    margin: 210px;
+    border-radius: 50%;
+
+    position: relative;
+   left: 92%;
+   top: 42%;
+}
+
+#two{
+background-color: rgb(126, 121, 121);
+}
+
+#three{
+background-color: rgb(126, 121, 121);
 }
