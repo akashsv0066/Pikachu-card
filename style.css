@@ -1,123 +1,103 @@
+/* CSS Boilerplate */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html ,
-body {
-height: 100%;
-width: 100%;
-}
-
-body{
-  font-family: 'Poppins', sans-serif;
+html, body 
+{
+    height: 100%;
+    width: 100%;
 }
 
-#main{
-   height: 93%;
-   width: 96%;
-    border-radius: 39px;
-   background: linear-gradient(
-  to right,
- #FFCB05,  #FFCC00 60%,
-  #F6EBCF 40%
-);
-
-position: relative;
-left: 1.8%;
-top: 2.9%;
-
-box-shadow: 0 0 20px rgb(19, 15, 15) ;
-
-}
-
-#m{
-     height: 96%;
-     margin-left: 7.3%;
-    position: absolute;
-    right: 14%;
-
-}
-
-#lo{
-  padding: 30px 30px;
-
-  position: absolute;
-  top: 2%;
-  left: 1%;
-
-  height: 10%;
- 
-
-}
-
-#na{
-    font-size:300px;
-    padding-left: 200px;
-    font-family: sans-serif;
-    position: absolute;
-    top: 30%;
-
-}
-
-
-#para{
-font-size:65px;
-padding-left: 200px;
-
-position: absolute;
-    top: 50%;
-
-
-
-}
-
-#date{
-font-size: 60px;
-padding-left: 200px;
-padding-top: 68px;
-
-
-position: absolute;
-    top: 69%;
-
-}
-
-h6{
-    font-size: 39px;
-    padding-left: 200px;
-
-
-position: absolute;
-    top: 25%;
-
-
-
-}
-
-#menu{
-    position: absolute;
-    right: 1%;
-   top: 2%;
-    height: 110px;
-}
-
-.dot{
-    height: 20px;
-    width: 20px;
-    background-color: black;
-    margin: 210px;
-    border-radius: 50%;
-
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
     position: relative;
-   left: 92%;
-   top: 42%;
+    margin: 0;
+    padding: 0;
 }
 
-#two{
-background-color: rgb(126, 121, 121);
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 35px;
+    padding-right: 50px;
 }
 
-#three{
-background-color: rgb(126, 121, 121);
+.content-left
+{
+    height: 100%;
+    width: 60%;
+    background-color: #FBC50B;
+}
+
+.content-right
+{
+    height: 100%;
+    width: 40%;
+    background-color: #FBE8B5;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left-content
+{
+    display: flex;
+    margin-block: 250px;
+    flex-direction: column;
+    gap: 50px;
+    padding-inline: 50px;
+}
+
+.main-heading
+{
+    font-family: 'Segoe UI';
+    /* font-style: oblique; */
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.sub-heading
+{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+
+.main-content
+{
+    font-family: 'Segoe UI';
+    line-height: 30px;
+    word-spacing: 3px;
+    padding-right: 400px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.hero
+{
+    position: absolute;
+    left: 650px;
+    height: 650px;
+}
+
+.circle
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #FAC30D;
+    margin-right: 100px;
 }
